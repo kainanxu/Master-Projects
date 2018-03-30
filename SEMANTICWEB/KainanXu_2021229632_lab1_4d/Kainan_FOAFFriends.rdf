@@ -1,0 +1,40 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Kainan Xu</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Kainan</foaf:givenname>
+<foaf:family_name>Xu</foaf:family_name>
+<foaf:nick>Harry</foaf:nick>
+<foaf:mbox rdf:resource="mailto:Kainanx@hotmail.com"/>
+<foaf:homepage rdf:resource="http://www.utdallas.edu/"/>
+<foaf:depiction rdf:resource="https://pbs.twimg.com/profile_images/378800000822867536/3f5a00acf72df93528b6bb7cd0a4fd0c.jpeg"/>
+<foaf:phone rdf:resource="tel:212-232-1234"/>
+<foaf:workplaceHomepage rdf:resource="http://www.utdallas.edu/"/>
+<foaf:workInfoHomepage rdf:resource="http://cs.utdallas.edu/"/>
+<foaf:schoolHomepage rdf:resource="http://www.utdallas.edu/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Doge</foaf:name>
+<foaf:mbox rdf:resource="mailto:Doge@gmail.com"/>
+<rdfs:seeAlso rdf:resource="https://www.google.com/?gws_rd=ssl#q=doge"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Peter</foaf:name>
+<foaf:mbox rdf:resource="mailto:PeterParker@utdallas.edu"/>
+<rdfs:seeAlso rdf:resource="PeterParker@utdallas.edu"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Amazon</foaf:name>
+<foaf:mbox rdf:resource="mailto:Amazon@hotmail.com"/>
+<rdfs:seeAlso rdf:resource="http://www.amazon.com/"/></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
