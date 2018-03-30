@@ -1,0 +1,35 @@
+/*
+    Creat at 2016 06 06
+    Author:Kainan
+*/
+body
+{
+
+    text-align:center;
+    margin:auto;
+    width:70%;
+    background-color: floralwhite;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 100px 40px;
+
+
+}
+
+#header{
+    position: absolute;top: 0;
+    right:0;
+}
+
+#footer{
+    position:absolute;bottom: auto;
+    height: 60px;
+
+
+}
+
+#input{
+    margin:0 auto;      /* 居中 这个是必须的，，其它的属性非必须 */
+    width:500px;        /* 给个宽度 顶到浏览器的两边就看不出居中效果了 */
+    text-align:center;  /* 文字等内容居中 */
+}
