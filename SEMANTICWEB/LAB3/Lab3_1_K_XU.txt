@@ -1,0 +1,63 @@
+#Query <1>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX vcard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+PREFIX people: <http://somewhere/peopleInfo#>
+SELECT ?sub
+WHERE{
+?sub vcard:FN "John Smith"
+}
+
+
+#Query <2>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX vcard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+PREFIX people: <http://somewhere/peopleInfo#>
+SELECT ?sub ?obj 
+WHERE{
+?sub people:age ?obj
+}
+
+
+#Query <3>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX vcard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+PREFIX people: <http://somewhere/peopleInfo#>
+SELECT ?sub
+WHERE{
+?sub vcard:FN ?obj. 
+?sub people:age ?age
+}
+
+
+#Query <4>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX vcard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+PREFIX people: <http://somewhere/peopleInfo#>
+SELECT ?sub ?obj
+WHERE{ 
+?sub people:age ?obj
+FILTER(?obj="23")
+}
+
+
+#Query <5>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX vcard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+PREFIX people: <http://somewhere/peopleInfo#>
+SELECT ?name
+WHERE{
+?sub vcard:FN ?obj. 
+?sub people:age ?age.
+?sub vcard:N ?bnode.
+?bnode vcard:Given ?name
+}

@@ -1,0 +1,37 @@
+<http://utdallas/semclass> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Keven L.Ates" .
+<http://utdallas/semclass> <http://www.w3.org/2001/vcard-rdf/3.0#BDAY> "1901-01-01" .
+<http://utdallas/semclass> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "atescomp@utdallas.edu" .
+<http://utdallas/semclass> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "Senior Lecturer" .
+_:BX2D76cde221X3A152817c64c2X3AX2D7fff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7fff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7fff <http://xmlns.com/foaf/0.1/maker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#me> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7fff <http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#me> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7fff <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7fff <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7fff <http://xmlns.com/foaf/0.1/name> "Doge" .
+_:BX2D76cde221X3A152817c64c2X3AX2D7fff <http://xmlns.com/foaf/0.1/mbox> <mailto:Doge@gmail.com> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7fff <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.google.com/?gws_rd=ssl#q=doge> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7ffe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7ffe <http://xmlns.com/foaf/0.1/name> "Peter" .
+_:BX2D76cde221X3A152817c64c2X3AX2D7ffe <http://xmlns.com/foaf/0.1/mbox> <mailto:PeterParker@utdallas.edu> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7ffe <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/1999/02/PeterParker@utdallas.edu> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7ffd <http://xmlns.com/foaf/0.1/name> "Amazon" .
+_:BX2D76cde221X3A152817c64c2X3AX2D7ffd <http://xmlns.com/foaf/0.1/mbox> <mailto:Amazon@hotmail.com> .
+_:BX2D76cde221X3A152817c64c2X3AX2D7ffd <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.amazon.com/> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/name> "Kainan Xu" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/title> "Mr" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/givenname> "Kainan" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/family_name> "Xu" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/nick> "Harry" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/mbox> <mailto:Kainanx@hotmail.com> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/homepage> <http://www.utdallas.edu/> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/depiction> <https://pbs.twimg.com/profile_images/378800000822867536/3f5a00acf72df93528b6bb7cd0a4fd0c.jpeg> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/phone> <tel:212-232-1234> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://www.utdallas.edu/> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/workInfoHomepage> <http://cs.utdallas.edu/> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.utdallas.edu/> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/knows> _:BX2D76cde221X3A152817c64c2X3AX2D7fff .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/knows> _:BX2D76cde221X3A152817c64c2X3AX2D7ffe .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#me> <http://xmlns.com/foaf/0.1/knows> _:BX2D76cde221X3A152817c64c2X3AX2D7ffd .

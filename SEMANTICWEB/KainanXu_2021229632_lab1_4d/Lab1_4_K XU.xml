@@ -1,0 +1,53 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <rdf:Description rdf:about="http://utdallas/semclass">
+    <vcard:FN>Keven L.Ates</vcard:FN>
+    <vcard:BDAY>1901-01-01</vcard:BDAY>
+    <vcard:EMAIL>atescomp@utdallas.edu</vcard:EMAIL>
+    <vcard:TITLE>Senior Lecturer</vcard:TITLE>
+  </rdf:Description>
+  <foaf:Person rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#me">
+    <foaf:name>Kainan Xu</foaf:name>
+    <foaf:title>Mr</foaf:title>
+    <foaf:givenname>Kainan</foaf:givenname>
+    <foaf:family_name>Xu</foaf:family_name>
+    <foaf:nick>Harry</foaf:nick>
+    <foaf:mbox rdf:resource="mailto:Kainanx@hotmail.com"/>
+    <foaf:homepage rdf:resource="http://www.utdallas.edu/"/>
+    <foaf:depiction rdf:resource="https://pbs.twimg.com/profile_images/378800000822867536/3f5a00acf72df93528b6bb7cd0a4fd0c.jpeg"/>
+    <foaf:phone rdf:resource="tel:212-232-1234"/>
+    <foaf:workplaceHomepage rdf:resource="http://www.utdallas.edu/"/>
+    <foaf:workInfoHomepage rdf:resource="http://cs.utdallas.edu/"/>
+    <foaf:schoolHomepage rdf:resource="http://www.utdallas.edu/"/>
+    <foaf:knows>
+      <foaf:PersonalProfileDocument>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <foaf:maker rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#me"/>
+        <foaf:primaryTopic rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#me"/>
+        <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+        <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+        <foaf:name>Doge</foaf:name>
+        <foaf:mbox rdf:resource="mailto:Doge@gmail.com"/>
+        <rdfs:seeAlso rdf:resource="https://www.google.com/?gws_rd=ssl#q=doge"/>
+      </foaf:PersonalProfileDocument>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:name>Peter</foaf:name>
+        <foaf:mbox rdf:resource="mailto:PeterParker@utdallas.edu"/>
+        <rdfs:seeAlso rdf:resource="http://www.w3.org/1999/02/PeterParker@utdallas.edu"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:name>Amazon</foaf:name>
+        <foaf:mbox rdf:resource="mailto:Amazon@hotmail.com"/>
+        <rdfs:seeAlso rdf:resource="http://www.amazon.com/"/>
+      </foaf:Person>
+    </foaf:knows>
+  </foaf:Person>
+</rdf:RDF>
