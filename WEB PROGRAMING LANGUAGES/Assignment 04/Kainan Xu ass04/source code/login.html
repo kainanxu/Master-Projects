@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>welcome to UTD</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script language="javascript"type="text/javascript" >
+        function check(){
+            var name=LoginForm.username.value;
+            var pwd=LoginForm.password.value;
+            if(name==""){
+                alert("请输入用户名~");
+                LoginForm.username.focus();
+                return (false);
+            }
+            if(pwd==""){
+                alert("请输入密码~");
+                LoginForm.password.focus();
+                return (false);
+            }
+        }
+    </script>
+
+</head>
+<body>
+<p >Graduate Computer Science Department </p>
+<p align="center">The University of Texas at Dallas </p>
+<hr/>
+
+<h1 align="center">Welcome to the University of Texas at Dallas!</h1>
+<br><br>
+<h3 align="center">Please Login</h3>
+
+<div id="input" align="center-left">
+
+    <fieldset>
+        <form name="LoginForm" method="post"action="login.php" onsubmit="return check(this)">
+            UserName:<input name = "username" type="text"id="username"/><br />
+            Password:<input name = "password" type="password"id="password"/><br/>
+            <input value="Login" type="submit" name="submit"/>
+            <input value="Register" type="button"onclick="javascrtpt:window.location.href='register.html'"/><br/>
+        </form>
+    </fieldset>
+
+</div>
+<br><br><br><br><br><br><br>
+<hr>
+<div id="footer" align="left">
+    UNIVERSITY LINKS<br>
+    <a href="course_list.php">Course List</a>
+    <br>
+    <a href="Acknowledgment.php">Acknowledgment of Policies Form</a>
+    <div align="left">
+        © The University of Texas at Dallas<br>
+    </div>
+</div>
+</body>
+</html>

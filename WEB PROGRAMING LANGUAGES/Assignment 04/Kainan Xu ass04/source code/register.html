@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>welcome to UTD</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script language="javascript"type="text/javascript" >
+        function check(){
+            var name=LoginForm.username.value;
+            var pwd=LoginForm.password.value;
+            var pwd_1=LoginForm.password_1.value;
+            if(name==""){
+                alert("Please input the userid!");
+                LoginForm.username.focus();
+                return (false);
+            }
+            if(pwd==""&&name!=""){
+                alert("Please input the password");
+                LoginForm.password.focus();
+                return (false);
+            }
+            if(pwd_1==""&&pwd!=""&&name!=""){
+                alert("Please confirm the password");
+                LoginForm.password_1.focus();
+                return (false);
+            }
+            if(pwd!=pwd_1)
+            {
+                alert("Password is not remain same, please retry!");
+                LoginForm.password_1.focus();
+                return (false);
+            }
+
+        }
+    </script>
+
+</head>
+<body>
+<p >Graduate Computer Science Department </p>
+<p align="center">The University of Texas at Dallas </p>
+<hr/>
+
+<h1 align="center">Students Register Page</h1>
+<h3 align="center">Please Input the Information</h3>
+<div id="input">
+    <fieldset>
+        <form name="LoginForm" method="post" action="register.php" onsubmit="return check(this)" >
+            UserName:<input name = "username" type="text"id="username"/><br />
+            Password: <input name = "password" type="password"id="password"/><br/>
+            Confirm:  <input name = "password_1" type="password"id="password_1"/><br/>
+            Tel_Num: <input name = "tel" type="text"id="tel"/><br/>
+            EmailAdd:<input name = "Email" type="text"id="Email"/><br/>
+            <input value="Register" type="submit" name="submit"/>
+        </form>
+    </fieldset>
+</div>
+<hr>
+<div id="footer" align="left">
+UNIVERSITY LINKS<br>
+<a href="course_list.php">Course List</a>
+<br>
+<a href="Acknowledgment.php">Acknowledgment of Policies Form</a>
+<div align="left">
+    © The University of Texas at Dallas<br>
+</div>
+</div>
+</html>
